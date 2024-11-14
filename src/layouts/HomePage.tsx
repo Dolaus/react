@@ -9,7 +9,7 @@ import {fetchExhibits, setCurrentPageSlice} from "../store/slices/exhibitSlice";
 import {deleteExhibition} from "../api/exhibitActions";
 import {checkUser} from "../store/slices/userSlice";
 import PostItem from "./PostItem";
-import {IExhibition} from "../../interface/IExhibition";
+import {IExhibition} from "../interface/IExhibition";
 import {io} from "socket.io-client";
 import {toast} from "react-toastify";
 

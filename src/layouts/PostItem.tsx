@@ -3,7 +3,7 @@ import {Card, CardContent, Grid} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import CommentPage from "./CommentPage";
-import {IExhibition} from "../../interface/IExhibition";
+import {IExhibition} from "../interface/IExhibition";
 
 interface IPostItemProps {
     exhibition: IExhibition
